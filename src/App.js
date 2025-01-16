@@ -1,16 +1,10 @@
 import React from 'react'
-import { Header,Content,Footer } from './func-components';
-import Calendar from './class-components';
+import Button from './even-class';
 function App() {
   
-  return (
-    <>
-    <Header/>
-    <p><center><Calendar/></center></p>
-    <Content/>
-    <Footer/>
-    </>
-    )    
+  return <Button/>
+    
+      
 }
 
 export default App;
