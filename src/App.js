@@ -1,6 +1,7 @@
 import React from 'react'
-import { EvenData2 } from './event-data'
+import  RefsFunc  from './refs-func'
+
 
 export default function App() {
-  return  <EvenData2/>
+  return <RefsFunc/>
 }
