@@ -6,7 +6,7 @@ const Quiz =()=>{
     //console.log(QuestionsData);
     const [current, setCurrent] = useState(0)
     const [selectChoices, setSelectChoices] = useState("")
-    const [score, setScore, setAppState] = useContext(DataContext)
+    const {score, setScore, setAppState} = useContext(DataContext)
     
     useEffect(()=>{
         checkAnswer()
